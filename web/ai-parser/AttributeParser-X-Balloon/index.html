@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-select/dist/css/bootstrap-select.min.css">
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/tabs.css">
+    <link rel="stylesheet" href="css/loading.css">
+</head>
+<body>
+
+
+<div class="main-body header-body">
+    <div class=" tabs">
+
+        <div class="logo-name" title="Builder Image Annotator">
+            Builder I.A.
+
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<div class="canvas-parent">
+
+
+</div>
+
+</div>
+<!--<canvas id="canvas" width="1000" height="1000"></canvas>-->
+
+
+<div class="global-appender">
+
+</div>
+<div class="loading"></div>
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+
+
+<!-- Latest compiled and minified JavaScript -->
+
+<script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="node_modules/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+<script type="text/javascript" src="node_modules/konva/konva.min.js"></script>
+<script type="text/javascript" src="node_modules/moment/min/moment-with-locales.min.js"></script>
+
+<!--<script src='js/Events/TabsEvent.js' type="text/javascript"></script>-->
+
+
+<!--Generics-->
+<script src='js/Generic/KonvaFEvent.js' type="text/javascript"></script>
+<script src='js/Generic/ObjectHandlingContext.js' type="text/javascript"></script>
+<script src='js/Generic/Context.js' type="text/javascript"></script>
+<script src='js/Generic/ContextEvent.js' type="text/javascript"></script>
+<script src='js/Generic/KonvaShapeF.js' type="text/javascript"></script>
+<script src='js/Generic/Shape.js' type="text/javascript"></script>
+<script src='js/Generic/Tab.js' type="text/javascript"></script>
+<script src='js/Generic/UrlConnection.js' type="text/javascript"></script>
+<script src='js/Generic/Toast.js' type="text/javascript"></script>
+<script src='js/Generic/UI.js' type="text/javascript"></script>
+<script src='js/Generic/Modal.js' type="text/javascript"></script>
+
+<script src='js/Generic/Model.js' type="text/javascript"></script>
+<!--UI controllers-->
+
+<script src="js/UI/TabUI.js" type="text/javascript"></script>
+<script src="js/UI/TabHandlerUI.js" type="text/javascript"></script>
+<!--Tabs-->
+<script src='js/Tab/AllTabsUI.js' type="text/javascript"></script>
+<script src='js/Tab/ClassificationTabUI.js' type="text/javascript"></script>
+<script src='js/Tab/ShapeTabUI.js' type="text/javascript"></script>
+<script src='js/Tab/ZoomTabUI.js' type="text/javascript"></script>
+<script src='js/Tab/SelectImageTabUI.js' type="text/javascript"></script>
+<script src='js/Tab/JobsTabUI.js' type="text/javascript"></script>
+<script src='js/Tab/RegionAttributesTabUI.js' type="text/javascript"></script>
+<script src='js/Tab/SettingTabUI.js' type="text/javascript"></script>
+<!--Shapes-->
+<script src='js/Shape/Circle.js' type="text/javascript"></script>
+<script src='js/Shape/Line.js' type="text/javascript"></script>
+<script src='js/Shape/Polygon.js' type="text/javascript"></script>
+<script src='js/Shape/Ellipse.js' type="text/javascript"></script>
+<script src='js/Shape/Rectangle.js' type="text/javascript"></script>
+<script src='js/Shape/MultiPolygon.js' type="text/javascript"></script>
+
+
+<!--instances-->
+<script src='js/Instance/Helper.js' type="text/javascript"></script>
+<script src='js/Instance/Translation.js' type="text/javascript"></script>
+<script src='js/Instance/CollectDataShapes.js' type="text/javascript"></script>
+<script src='js/Instance/Runtime.js' type="text/javascript"></script>
+<script src='js/Instance/ImageLoaded.js' type="text/javascript"></script>
+<script src='js/Instance/JobsToDo.js' type="text/javascript"></script>
+<!--services-->
+<script src='js/Service/SaveShapesService.js' type="text/javascript"></script>
+<script src='js/Service/ReceiveImageService.js' type="text/javascript"></script>
+<script src='js/Service/UploadImageService.js' type="text/javascript"></script>
+<script src='js/Service/ReceiveShapesPerImageService.js' type="text/javascript"></script>
+<script src='js/Service/ReceiveAllEssentialsService.js' type="text/javascript"></script>
+<script src='js/Service/ReceiveImageStatisticsService.js' type="text/javascript"></script>
+<script src='js/Service/SetUserConfigurationService.js' type="text/javascript"></script>
+
+<!--models-->
+<script src='js/Models/ModelShape.js' type="text/javascript"></script>
+<script src='js/Models/ClassificationModel.js' type="text/javascript"></script>
+<script src='js/Models/ShapeType.js' type="text/javascript"></script>
+
+<script src='js/Models/ImageModel.js' type="text/javascript"></script>
+<script src='js/Models/UserConfiguration.js' type="text/javascript"></script>
+<script src='js/Models/User.js' type="text/javascript"></script>
+
+<!--&lt;!&ndash;Konva shapes&ndash;&gt;-->
+<!--<script src='js/KonvaF/KonvaShapeF.js' type="text/javascript"></script>-->
+<!--<script src='js/KonvaF/KonvaRectangleF.js' type="text/javascript"></script>-->
+<!--<script src='js/KonvaF/KonvaCircleF.js' type="text/javascript"></script>-->
+<!--&lt;!&ndash;Runtime&ndash;&gt;-->
+
+<!--<script src='js/Runtime/Instances.js' type="text/javascript"></script>-->
+
+
+<!--master-->
+<script src='js/Generic/Master.js' type="text/javascript"></script>
+</body>
+
+</html>

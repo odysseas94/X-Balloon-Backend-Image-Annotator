@@ -1,0 +1,187 @@
+
+
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.kv-grid-container .table td select.form-control {
+    min-width: 8vw;
+}
+
+.word-break {
+    word-break: break-all;
+}
+
+.break-to-lines {
+    width: min-intrinsic;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    display: table-caption;
+    display: -ms-grid;
+    -ms-grid-columns: min-content;
+}
+
+.table td .input-group.date {
+    min-width: 10vw;
+}
+
+.kv-grid-container .table tbody tr td {
+    text-align: center;
+    padding: 0.8em 0.2em 0.8em 0.2em;
+
+    vertical-align: middle !important;
+    min-width: 40px;
+}
+
+
+.kv-grid-container .table thead td {
+    padding: 0.2em 0.3em 0.2em 0.3em;
+}
+
+.kv-grid-container > table tbody tr:hover {
+    background-color: lightgrey !important;
+    color: white !important;
+
+
+}
+
+.container-error {
+    padding: 5vh;
+
+}
+
+/*.table tbody tr:nth-of-type(odd) {*/
+/*    background-color: #F0F2F5;*/
+/*}*/
+
+.truncate {
+    max-width: 150px !important;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.truncate:active, .truncate:focus:focus-within {
+    overflow: visible;
+    white-space: normal;
+    word-break: break-all;
+
+    width: auto;
+}
+
+
+.logo-image {
+    height: 60px;
+}
+
+.help-block {
+    color: red !important;
+}
+
+.file-preview img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.modal-body img {
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+
+}
+
+.datepicker, .datetimepicker {
+    z-index: 98 !important;
+}
+
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__heading .kt-menu__link-text, .kt-aside-menu .kt-menu__nav > .kt-menu__item .kt-menu__submenu .kt-menu__item > .kt-menu__link .kt-menu__link-text {
+    font-weight: 400;
+    font-size: 1.05rem;
+    text-transform: initial;
+}
+
+.kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__heading .kt-menu__link-text, .kt-aside-menu .kt-menu__nav > .kt-menu__item > .kt-menu__link .kt-menu__link-text {
+    font-weight: 400;
+    font-size: 1.05rem;
+    text-transform: initial
+}
+
+input, .form-control {
+    border-radius: 0.25rem;
+}
+
+.btn {
+    border-radius: 0.25rem;
+}
+
+.btn i {
+    padding-right: .5rem;
+    vertical-align: unset;
+    line-height: 0;
+}
+
+.background-white {
+    background: white;
+}
+
+
+.kt-page {
+    height: 95vh !important;
+}
+
+.grid-view > .card, .table > .card {
+    /*padding: 0.5em;*/
+    /*border-radius: 0.5%;*/
+}
+
+.kt-grid.kt-grid--hor:not(.kt-grid--desktop):not(.kt-grid--desktop-and-tablet):not(.kt-grid--tablet):not(.kt-grid--tablet-and-mobile):not(.kt-grid--mobile) > .kt-grid__item {
+
+    background: #F0F2F5;
+}
+
+.kt-grid.kt-grid--hor:not(.kt-grid--desktop):not(.kt-grid--desktop-and-tablet):not(.kt-grid--tablet):not(.kt-grid--tablet-and-mobile):not(.kt-grid--mobile) > .kt-login__wrapper {
+
+    background: initial !important;
+}
+
+
+.card-footer, .card-header {
+    background-color: #F0F2F5 !important;
+}
+
+table.detail-view tbody tr th:first-child {
+    width: 400px;
+    white-space: nowrap;
+}
+
+.kt-header, .kt-aside__brand {
+    background-color: #2b3643;
+}
+
+bold {
+    font-weight: 600;
+}
+
+.kt-container table span.input-group-text {
+    min-height: 35.6px;
+    min-width: 38.5px;
+}
+
+.primary-background {
+    background-color: rgb(240, 242, 245);
+
+}
+
+.mat-icon {
+    background-repeat: no-repeat;
+    display: inline-block;
+    line-height: 1.5em!important;
+
+}
+
+.add-container-button > i {
+    font-size: 3em !important;
+}
+

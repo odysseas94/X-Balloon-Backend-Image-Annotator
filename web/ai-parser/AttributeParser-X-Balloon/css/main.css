@@ -1,0 +1,180 @@
+body {
+    /*background-color:lightgrey;;*/
+    color: white;
+
+}
+
+.btn-primary, .btn-primary.disabled, .btn-primary:disabled, .show > .btn-primary.dropdown-toggle, .classification-parent button {
+    background-color: deeppink;
+    outline: 0px auto -webkit-focus-ring-color !important;
+    outline-offset: 0px !important;
+    border-color: deeppink;
+
+
+}
+
+.bootstrap-select .dropdown-toggle:focus {
+    outline: 0px auto -webkit-focus-ring-color !important;
+    outline-offset: 0px !important;
+}
+
+.btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary:focus-within, .classification-parent button :active:focus:hover, .btn-success:not(:disabled):not(.disabled):active {
+    background-color: rgb(148, 32, 122) !important;;
+    border-color: rgba(60, 0, 44, 0.4) !important;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 184, 0.4) !important;
+    outline: none !important;
+    outline-offset: 0px !important;
+}
+
+
+.classification-parent button {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.global-appender {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    color: black;
+
+}
+
+
+.upload-image-parent .list-group-item, .previous-images-parent .list-group-item:last-child, .new-uploads-parent .list-group-item:last-child {
+    /*border: none !important;*/
+}
+
+.select-image-parent .img-fluid {
+    max-height: 40px !important;
+}
+
+.classification-parent .dropdown-menu li {
+    /*max-width: 100px;*/
+}
+
+.hidden {
+    display: none;
+    position: absolute!important;
+    height: 0px!important;
+    width: 0px!important;
+}
+
+.text.width-50 {
+    width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+btn-group > .btn-group:not(:last-child) > .btn, .btn-group > .btn:not(:last-child):not(.dropdown-toggle) {
+    border-top-right-radius: .25em;
+    border-bottom-right-radius: .25em;
+}
+
+.error-toast .toast-header > strong {
+    color: red !important;
+    padding-right: 5px;
+
+}
+
+.select-image-parent .dropdown-menu {
+    max-height: 600px;
+    overflow: auto;
+    overflow-y: auto;
+
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #282828;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #282828;
+}
+
+.text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.modal-header .close {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+}
+
+.modal-header {
+    display: block;
+    color: black;
+}
+
+.modal-header .close {
+    padding: 0px;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.modal-header .close:focus {
+    box-shadow: none;
+}
+
+.padding-0 {
+    padding: 0;
+
+}
+
+.select-image-modal-content {
+    max-height: 80vh;
+    overflow: auto;
+
+}
+
+
+.modal-body {
+    padding: 1em 1em 0 1em;
+}
+
+.modal-content {
+    min-width: 40vw;
+    max-width: 600px;
+}
+
+@media (min-width: 576px) {
+    .modal-dialog {
+        max-width: 40vw;
+
+    }
+
+}
+
+.hidden {
+    visibility: hidden;
+    position: absolute;
+    height: 0;
+    width: 0;
+
+}
+
+
+.image-statistics{
+    min-height: 100px;
+    padding-top:1em;
+}

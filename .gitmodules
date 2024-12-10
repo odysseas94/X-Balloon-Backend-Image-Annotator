@@ -1,0 +1,6 @@
+[submodule "views/workbench/ai-parser/AttributeParser-X-Balloon"]
+	path = views/workbench/ai-parser/AttributeParser-X-Balloon
+	url = https://github.com/odysseas94/AttributeParser-X-Balloon
+[submodule "web/ai-parser/AttributeParser-X-Balloon"]
+	path = web/ai-parser/AttributeParser-X-Balloon
+	url = https://github.com/odysseas94/AttributeParser-X-Balloon

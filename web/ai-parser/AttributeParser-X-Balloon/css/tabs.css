@@ -1,0 +1,269 @@
+.region-shape {
+    padding-inline-start: 10px;
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+    margin-bottom: 0px;
+    border: grey solid 1px;
+}
+
+.region-shape li {
+    display: inline-block;
+    clear: left;
+    padding: 0 0.2em;
+    fill: #ffffff;
+    stroke: #000000;
+}
+
+
+.tabs .shape {
+    width: 35px;
+    height: 28px;
+    display: inline-block;
+}
+
+
+.select-image-parent .btn-group > button {
+    min-width: 15vw;
+    position: relative;
+    width: 100%;
+    text-align: right;
+    white-space: nowrap;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+
+}
+
+.tabs svg {
+    width: 35px;
+    height: 28px;
+}
+
+.tabs {
+    padding-top: 3px;
+    margin: auto;
+}
+
+.tabs a.btn {
+    width: 100%;
+
+}
+
+.tabs .shape > a {
+
+    padding: 0px;
+    padding-left: 4px;
+}
+
+.region-shape li.selected svg {
+
+    fill: #5f8b95;
+    stroke: black;
+
+}
+
+/*header config*/
+.header-body {
+    padding: 0.2em 1em 0.2em 1em;
+    position: fixed;
+    min-height: 50px;
+    z-index: 100;
+    width: 100%;
+
+}
+
+.canvas-parent {
+    padding-top: 50px;
+}
+
+.header-body .tabs > div {
+    padding-right: 1em;
+    display: inline-block;
+
+
+    margin: auto 0 auto 0;
+}
+
+.header-body {
+    background: #2b3643;
+}
+
+.list-group-item.active, .dropdown-item.active {
+    background: deeppink;
+    border-color: rgba(62, 0, 46, 0.4);
+}
+
+.shape-active, .shape-active:focus {
+    background-color: #ff0066;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(255, 0, 184, 0.4);
+}
+
+/*dropdown with images*/
+
+.select-image-parent dropdown-toggle, .select-image-parent .dropdown-menu {
+    width: 300px
+}
+
+.btn-group img {
+    margin-right: 10px
+}
+
+.dropdown-toggle {
+    padding-right: 50px
+}
+
+/*.dropdown-toggle .glyphicon {*/
+/*    margin-left: 20px;*/
+/*    margin-right: -40px*/
+/*}*/
+
+.dropdown-menu > li > a:hover, .select-image-parent ul li:not(.dropdown-header):hover {
+    background-color: deeppink !important;
+}
+
+.select-image-parent ul .dropdown-header {
+    background: #2b3643;
+    color: white;
+}
+
+
+/* $search-blue */
+.dropdown-header {
+    background: #ccc;
+    font-size: 14px;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px
+}
+
+.logo-name {
+    font-weight: 600;
+    font-size: 1em;
+    padding-right: 2em !important;
+}
+
+
+#container:focus {
+    outline: -webkit-focus-ring-color auto 0px !important;
+    outline-color: -webkit-focus-ring-color;
+    outline-style: auto;
+    outline-width: 0 !important;
+}
+
+.header-body select, .header-body option {
+    background-color: lightgrey !important;
+}
+
+.text-dropdown {
+    max-width: 14vw;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/*.jobs-parent {*/
+/*    position: absolute;*/
+/*    right: 50px;*/
+/*    -ms-transform: rotate(0deg); !* IE 9 *!*/
+/*    -webkit-transform: rotate(0deg); !* Chrome, Safari, Opera *!*/
+/*    transform: rotate(0deg);*/
+/*}*/
+
+.jobs-parent button {
+
+}
+
+.rotated {
+    animation: 2s rotate360 infinite linear;
+}
+
+@keyframes rotate360 {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.region-attributes-parent {
+
+    position: absolute;
+    right: 20px;
+    top: 50px;
+    color:black
+
+}
+
+.attribute-menu-parent  .btn{
+
+    width: auto!important;
+}
+
+
+#region-attributes-parent .dropdown{
+    width: auto!important;
+}
+
+#region-attributes-parent .list-group{
+    width: 300px;
+    overflow: auto;
+    height: 90vh;
+}
+#region-attributes-parent .list-group-item .row > div{
+    padding:0.2em;
+    margin: auto;
+}
+#region-attributes-parent .list-group-item.active{
+    background: #2b3643;
+}
+.select-image-parent li{
+    display:block!important;
+
+}
+
+
+.user_fullname{
+    font-size:0.8em;
+}
+
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.image-info{
+    width: 100%;
+}
+
+.thumbnail{
+    max-height: 40px;
+}
+li .image-info{
+    margin-left: 0px;
+}
+
+.open-modal {
+    min-width: 15em;
+}

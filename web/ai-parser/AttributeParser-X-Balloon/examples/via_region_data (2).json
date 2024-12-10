@@ -1,0 +1,125 @@
+{
+  "266.jpg495584": {
+    "fileref": "",
+    "size": 495584,
+    "filename": "266.jpg",
+    "base64_img_data": "",
+    "file_attributes": {},
+    "regions": {
+      "0": {
+        "shape_attributes": {
+          "name": "circle",
+          "cx": 1519,
+          "cy": 1658,
+          "r": 680
+        },
+        "region_attributes": {}
+      },
+      "1": {
+        "shape_attributes": {
+          "name": "circle",
+          "cx": 2794,
+          "cy": 1670,
+          "r": 204
+        },
+        "region_attributes": {}
+      },
+      "2": {
+        "shape_attributes": {
+          "name": "circle",
+          "cx": 2586,
+          "cy": 2423,
+          "r": 111
+        },
+        "region_attributes": {}
+      },
+      "3": {
+        "shape_attributes": {
+          "name": "circle",
+          "cx": 2041,
+          "cy": 3223,
+          "r": 147
+        },
+        "region_attributes": {}
+      },
+      "4": {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 638,
+          "y": 2667,
+          "width": 35,
+          "height": 58
+        },
+        "region_attributes": {}
+      },
+      "5": {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 823,
+          "y": 3038,
+          "width": 58,
+          "height": 70
+        },
+        "region_attributes": {}
+      },
+      "6": {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 1078,
+          "y": 3455,
+          "width": 110,
+          "height": 93
+        },
+        "region_attributes": {}
+      },
+      "7": {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 2533,
+          "y": 4464,
+          "width": 214,
+          "height": 157
+        },
+        "region_attributes": {}
+      },
+      "8": {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 2620,
+          "y": 3751,
+          "width": 174,
+          "height": 87
+        },
+        "region_attributes": {}
+      },
+      "9": {
+        "shape_attributes": {
+          "name": "rect",
+          "x": 2655,
+          "y": 3049,
+          "width": 301,
+          "height": 145
+        },
+        "region_attributes": {}
+      },
+      "10": {
+        "shape_attributes": {
+          "name": "point",
+          "cx": 870,
+          "cy": 800
+        },
+        "region_attributes": {}
+      },
+      "11": {
+        "shape_attributes": {
+          "name": "ellipse",
+          "cx": 1328,
+          "cy": 336,
+          "rx": 122,
+          "ry": 168
+        },
+        "region_attributes": {}
+      }
+    }
+  }
+}

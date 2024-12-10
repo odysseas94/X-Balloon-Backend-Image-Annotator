@@ -1,0 +1,30 @@
+{
+  "name": "attributeparser",
+  "version": "1.0.0",
+  "description": "\"# AttributeParser-X-Balloon\"",
+  "main": "index.html",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.2",
+    "bootstrap": "^4.6.0",
+    "bootstrap-select": "^1.13.18",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.5.1",
+    "konva": "^7.2.2",
+    "moment": "^2.29.1",
+    "popper.js": "^1.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/odysseas94/AttributeParser-X-Balloon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/odysseas94/AttributeParser-X-Balloon/issues"
+  },
+  "homepage": "https://github.com/odysseas94/AttributeParser-X-Balloon#readme"
+}
