@@ -58,4 +58,12 @@ web/ai-parser/AttributeParser-X-Balloon
 ```
 
 ## Licensing
-This software is licensed under a free-to-use license. You are welcome to use, modify, and distribute it according to the terms provided in the LICENSE file.
+Copyright (C) 2025 Odysseas Tsakai
+
+This project is licensed under the GNU General Public License v3 (GPLv3).
+See <https://www.gnu.org/licenses/>.
+
+This project includes components from the Yii2 PHP Framework,
+which is licensed under the BSD 3-Clause License.
+
+Third-party components retain their original licenses.
