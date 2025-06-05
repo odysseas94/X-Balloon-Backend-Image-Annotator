@@ -101,13 +101,21 @@ Follow these steps to use the system:
 
 12. **View Results:**
   - You can view the system-generated annotations in the Annotation Builder by selecting the specific image.
-  - In the Quantification Images section, you can see a detailed view of the network's confidence for each annotation.# Image Annotator Module
+  - In the Quantification Images section, you can see a detailed view of the network's confidence for each annotation.
+
+# Image Annotator Module
 
 ```bash
 web/ai-parser/AttributeParser-X-Balloon
 ```
 
 ## Licensing
+Copyright (C) 2025 Odysseas Tsakai
 
-This software is licensed under a free-to-use license. You are welcome to use, modify, and distribute it according to
-the terms provided in the LICENSE file.
+This project is licensed under the GNU General Public License v3 (GPLv3).
+See <https://www.gnu.org/licenses/>.
+
+This project includes components from the Yii2 PHP Framework,
+which is licensed under the BSD 3-Clause License.
+
+Third-party components retain their original licenses.
