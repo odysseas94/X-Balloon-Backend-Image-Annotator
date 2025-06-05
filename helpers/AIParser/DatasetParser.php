@@ -26,6 +26,7 @@ class DatasetParser extends HelperParser
     public $validation_result;
     public $training_result;
     public $hyperconfiguration;
+    const FINISHED=3;
 
 
     public function __construct($user = null)
@@ -35,8 +36,7 @@ class DatasetParser extends HelperParser
 
         $this->datasetModel = \app\models\pure\Dataset::findBySql("select dataset.* from dataset
              inner join validation on dataset.validation_id=validation.id
-            inner join training on training.id=dataset.training_id and training.status_id!=3 and dataset.status_id!=3
-            ")->one();
+            inner join training on training.id=dataset.training_id and training.status_id!=".self::FINISHED." and dataset.status_id!=".self::FINISHED)->one();
 
         if (!$this->datasetModel) {
             throw new \Exception("dataset not found");
