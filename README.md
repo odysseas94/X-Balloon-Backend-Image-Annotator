@@ -90,12 +90,14 @@ Follow these steps to use the system:
 - You can view the system-generated annotations in the Annotation Builder by selecting the specific image.
 - In the Quantification Images section, you can see a detailed view of the network's confidence for each annotation.# Image Annotator Module
 
+
 # Image Annotator Module
 The Image Annotator Module is included in the backend under the following directory:
 
 ```bash
 web/ai-parser/AttributeParser-X-Balloon
 ```
+
 
 ## Licensing
 Copyright (C) 2025 Odysseas Tsakai
