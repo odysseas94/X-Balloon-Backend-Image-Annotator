@@ -20,6 +20,10 @@ class AIStatus extends \yii\db\ActiveRecord
     /**
      * {@inheritdoc}
      */
+
+    public const PENDING = 1;
+    public const RUNNING = 2;
+    public const FINISHED = 3;
     public static function tableName()
     {
         return 'ai_status';
