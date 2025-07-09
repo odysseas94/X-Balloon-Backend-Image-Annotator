@@ -6,7 +6,7 @@ use app\helpers\ArrayHelper;
 use app\helpers\HelperParser;
 use app\models\pure\Hyperconfiguration;
 use app\models\pure\TrainingWeights;
-
+use app\models\pure\AIStatus;
 /**
  *
  * @property Hyperconfiguration[] $hyperconfiguration;
@@ -26,7 +26,7 @@ class DatasetParser extends HelperParser
     public $validation_result;
     public $training_result;
     public $hyperconfiguration;
-    const FINISHED=3;
+
 
 
     public function __construct($user = null)
@@ -36,7 +36,7 @@ class DatasetParser extends HelperParser
 
         $this->datasetModel = \app\models\pure\Dataset::findBySql("select dataset.* from dataset
              inner join validation on dataset.validation_id=validation.id
-            inner join training on training.id=dataset.training_id and training.status_id!=".self::FINISHED." and dataset.status_id!=".self::FINISHED)->one();
+            inner join training on training.id=dataset.training_id and training.status_id!=".AIStatus::FINISHED." and dataset.status_id!=".AIStatus::FINISHED)->one();
 
         if (!$this->datasetModel) {
             throw new \Exception("dataset not found");
