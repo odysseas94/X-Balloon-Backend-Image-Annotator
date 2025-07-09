@@ -61,6 +61,7 @@ Once the setup is complete, you can access the backend application in your brows
    ```bash
 http://localhost/x-balloon-backend/web
 ```
+
 # Usage Instructions
 
 Follow these steps to use the system:
@@ -100,56 +101,13 @@ Follow these steps to use the system:
 
 12. **View Results:**
 - You can view the system-generated annotations in the Annotation Builder by selecting the specific image.
-- In the Quantification Images section, you can see a detailed view of the network's confidence for each annotation.# Image Annotator Module
-
-
-# Usage Instructions
-
-Follow these steps to use the system:
-![img.png](img.png)
-
-1. **Create classification classes**  
-   Define the classifications for your dataset.
-
-2. **Add images**  
-   Upload the images you want to annotate.
-
-3. **Annotate them via the Annotation Builder**  
-   Use the Annotation Builder to annotate your images.
-
-4. **Create a dataset**  
-   Group your annotated images into a dataset.
-
-5. **Create a training set, also add the images to the training set**  
-   Assign images to the training set for model learning.
-
-6. **Create a validation set, also add the images to the validation set**  
-   Assign images to the validation set for model evaluation.
-
-7. **Run training from the X-Balloon AI module**  
-   Execute:
-    ```bash
-    python -m app.src.Application train
-    ```
-
-8. **Weight Files Upload**: As the training progresses, the system will automatically upload the paths to the generated weight files to the backend.
-9. **Create Test Quantification**: Set up a test quantification and add the images on which you want the AI module to find annotations.
-10. **Run AI Testing**: From the AI module, execute the testing command:
-    ```bash
-    python -m app.src.Application testing
-    ```
-11. **Annotations Upload**: The system will find the annotations on the test images and upload them to the backend.    
-
-12. **View Results:**
-  - You can view the system-generated annotations in the Annotation Builder by selecting the specific image.
-  - In the Quantification Images section, you can see a detailed view of the network's confidence for each annotation.
+- In the Quantification Images section, you can see a detailed view of the network's confidence for each annotation.
 
 # Image Annotator Module
 
 ```bash
 web/ai-parser/AttributeParser-X-Balloon
 ```
-
 
 ## Licensing
 Copyright (C) 2025 Odysseas Tsakai
